@@ -103,9 +103,9 @@ body {
 
 .image-parent {
   background-color: $grey;
-  /* max-width: 400px;
-  min-height: 300px; */
-}
+  width: 400px;
+  min-height: 300px;
+} */
 
 .galleryimages img {
   width: 100%;
