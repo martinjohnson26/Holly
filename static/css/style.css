@@ -101,6 +101,12 @@ body {
   column-gap: 0;
 }
 
+.image-parent {
+  background-color: $grey;
+  /* max-width: 400px;
+  min-height: 300px; */
+}
+
 .galleryimages img {
   width: 100%;
 }
