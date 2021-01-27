@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
+
+
+/*------------Header section------------------------------------------*/
+
+.navbar navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #343a40;
+  color: whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: right;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+/*------------Body section--------------------------------------------*/
+
+body {
+  color: #666666;
+  background-color: red;
+  font-family: "Roboto",sans-serif;
+}
+
+/*------------hero section-------------------------------------------*/
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("../images/image19.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  animation-name: hero-zoom;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  opacity: 0.8;
+  }
+
+ /* .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #343a407d;
+ } */
+
+    @keyframes hero-zoom {
+  from {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.hero-title{
+  color: #fff;
+  font-weight: bolder;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media screen and (max-width:1393px){
+    #hero-image{
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+/*------------gallery section----------------------------------------------*/
+
+#gallery {
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.container-gallery h2 {
+  letter-spacing: 5px;
+}
+
+.galleryimages {
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0;
+}
+
+.galleryimages img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .galleryimages {
+     column-count:2;
+    }
+    
+  }
+
+/*-------------social media section-----------------------------------------*/
+
+.media-contact {
+  background-color:  #343a40;
+  color: whitesmoke;
+}
+
+.media-contact i {
+  padding: 5px 0px 5px 0px;
+  color: whitesmoke;
+  font-size: 130%;
+  margin: auto;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.media-contact i:hover {
+  background: red;
+  font-size: 180%;
+}
+
+.media-contact h5 {
+  margin-bottom: 2px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.media-contact p {
+  font-size: 12px;
+}
