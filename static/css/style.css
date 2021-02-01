@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 
-
+html {
+    height: 100%;
+}
 /*------------Header section------------------------------------------*/
 
 .navbar navbar-toggler-icon {
@@ -24,9 +26,18 @@
 /*------------Body section--------------------------------------------*/
 
 body {
-  color: #666666;
-  background-color: red;
-  font-family: "Roboto",sans-serif;
+    background: url('/static/images/pawprints2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Roboto';
+}
+.img {
+     width: 400px;
+     height: 400px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 /*------------hero section-------------------------------------------*/
@@ -61,10 +72,10 @@ body {
 
     @keyframes hero-zoom {
   from {
-    transform: scale(1.4);
+    transform: scale(1);
   }
   to {
-    transform: scale(1);
+    transform: scale(1.4);
   }
 }
 
@@ -102,7 +113,7 @@ body {
 }
 
 .image-parent {
-  background-color: $grey;
+  background-color: grey;
   width: 400px;
   min-height: 300px;
 } */
