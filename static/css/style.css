@@ -11,7 +11,7 @@ html {
 
 .navbar {
   overflow: hidden;
-  background-color: #343a40;
+  background-color: #f53e75;
   color: whitesmoke;
   position: fixed;
   top: 0;
@@ -26,10 +26,10 @@ html {
 /*------------Body section--------------------------------------------*/
 
 body {
-    background: url('/static/images/pawprints2.jpg') no-repeat center center fixed;
+    background: url('/static/images/pawprints.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #f53e75;
     font-family: 'Roboto';
 }
 .img {
@@ -132,7 +132,7 @@ body {
 /*-------------social media section-----------------------------------------*/
 
 .media-contact {
-  background-color:  #343a40;
+  background-color:  #f53e75;
   color: whitesmoke;
 }
 
