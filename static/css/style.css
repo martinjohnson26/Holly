@@ -41,7 +41,7 @@ body {
 }
 
 /*------------hero section-------------------------------------------*/
-
+/* 
 #hero-image {
   height: calc(100vh + 250px);
   width: 100%;
@@ -55,7 +55,7 @@ body {
   animation-duration: 2s;
   animation-fill-mode: backwards;
   opacity: 0.8;
-  }
+  } */
 
  /* .overlay{
     position: absolute;
