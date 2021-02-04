@@ -28,7 +28,7 @@ html {
 body {
     background: url('/static/images/pawprints.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 364px);
     color: #f53e75;
     font-family: 'Roboto';
 }
@@ -40,44 +40,22 @@ body {
      background-size: cover;
 }
 
-/*------------hero section-------------------------------------------*/
-/* 
-#hero-image {
-  height: calc(100vh + 250px);
-  width: 100%;
-  background: url("../images/holly10.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden;
-  animation-name: hero-zoom;
-  animation-duration: 2s;
-  animation-fill-mode: backwards;
-  opacity: 0.8;
-  } */
+h2 {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+#set1,
+#set2,
+#set3,
+#set4,
+#set5,
+#set6,
+#set7,
+#set8{
+    padding-top: 50px;
+}
 
- /* .overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
-    width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-    background-color: #343a407d;
- } */
 
-    /* @keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
-} */
 
 .hero-title{
   color: #fff;
