@@ -23,6 +23,11 @@ html {
   font-weight: bolder;
 }
 
+.navbar a:hover {
+  background: #ddd;
+  color: black
+}
+
 /*------------Body section--------------------------------------------*/
 
 body {
@@ -70,42 +75,6 @@ h2 {
     }
 }
 
-
-
-
-/*------------gallery section----------------------------------------------*/
-
-#gallery {
-  margin-bottom: 40px;
-  padding-top: 20px;
-}
-
-.container-gallery h2 {
-  letter-spacing: 5px;
-}
-
-.galleryimages {
-  line-height: 0;
-  column-count: 3;
-  column-gap: 0;
-}
-
-.image-parent {
-  background-color: grey;
-  width: 400px;
-  min-height: 300px;
-} */
-
-.galleryimages img {
-  width: 100%;
-}
-
-@media screen and (max-width: 800px) {
-    .galleryimages {
-     column-count:2;
-    }
-    
-  }
 
 /*-------------social media section-----------------------------------------*/
 
