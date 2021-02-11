@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 
-html {
+body,html {
     height: 100%;
 }
 /*------------Header section------------------------------------------*/
@@ -68,10 +68,12 @@ h2 {
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: center;
+  position: absolute;
 }
-@media screen and (max-width:1393px){
-    #hero-image{
-        background-attachment: scroll;
+@media screen and (max-width:992px){
+    .header-container{
+        padding-top: 60px;
     }
 }
 
