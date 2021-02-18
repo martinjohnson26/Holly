@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 
 html {
@@ -33,7 +40,7 @@ html {
 body {
     background: url('/static/images/pawprints.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 364px);
+    height: calc(100vh - 164px);
     color: #f53e75;
     font-family: 'Roboto';
 }
